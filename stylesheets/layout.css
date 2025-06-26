@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+  
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 300vw;
+}
+  
+body {
+    background-color: #43474E;
+    background-image: url(../images/Desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+}
+
+/* ГЛАВНАЯ СТРАНИЦА */
+/* Меню */
+.menu {
+    height: 3.3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#zavod {
+    margin-left: 1.42vw;
+    font-family: Inter;
+    font-size: 1vw;
+    font-weight: 700;
+    margin-top: 1vw;
+    letter-spacing: -0.05vw;
+}
+#karier {
+    margin-left: 1.39vw;
+    font-family: Inter;
+    font-size: 0.87vw;
+    font-weight: 600;
+    margin-top: 0.44vw;
+    letter-spacing: -0.05vw;
+}
+#open {
+    margin-right: 1.42vw;
+    font-family: Inter;
+    font-size: 1vw;
+    font-weight: 700;
+    margin-top: 0.9vw;
+    letter-spacing: -0.05vw;
+}
+#phone {
+    margin-right: 1.42vw;
+    font-family: Inter;
+    font-size: 0.87vw;
+    font-weight: 600;
+    margin-top: 0.44vw;
+    letter-spacing: -0.05vw;
+    text-align: right;
+}
+#menu2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#menu2-top {
+    font-family: Inter;
+    font-size: 1vw;
+    font-weight: 700;
+    margin-top: 0.9vw;
+    letter-spacing: -0.05vw;
+    display: flex;
+    gap: 1.56vw;
+    justify-content: center;
+    margin-left: 6.55vw;
+}
+#mail {
+    font-family: Inter;
+    font-size: 0.87vw;
+    font-weight: 600;
+    margin-top: 0.44vw;
+    letter-spacing: -0.05vw;
+    text-align: center;
+    margin-left: 6.55vw;
+}
+
+/* ВТОРАЯ СЕКЦИЯ ГЛАВНЫЙ ЭКРАН */
+
+#head {
+    height: 16.25vw;
+    background-image: url(../images/factory.svg);
+    background-repeat: no-repeat;
+    background-size: 43.6vw;
+    background-position: 1.2vw 1.9vw;
+    overflow: hidden;
+}
+#head_karier {
+    font-family: 'TT Hoves Pro Condensed Medium';
+    font-weight: normal;
+    font-size: 15.5vw;
+    text-align: right;
+    margin-right: 1.3vw;
+    margin-top: 4vw;
+    letter-spacing: -0.59vw;
+}
+#dashed {
+    height: 42.45vw;
+    border-top: 0.2vw dashed #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+}
+#offer {
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.3vw;
+    font-weight: 700;
+    margin-bottom: 3.6vw;
+}
