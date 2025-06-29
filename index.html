@@ -14,10 +14,10 @@
         </div>
         <div id="menu2">
             <div id="menu2-top">
-                <p id="main">ГЛАВНАЯ</p>
-                <p id="shop">МАГАЗИН</p>
-                <p id="mero">МЕРОПРИЯТИЯ</p>
-                <p id="navigation">НАВИГАЦИЯ ПО ЗАВОДУ</p>
+                <p id="main"><a href="index.html">ГЛАВНАЯ</a></p>
+                <p id="shop"><a href="shop.html">МАГАЗИН</a></p>
+                <p id="mero"><a href="mero.html">МЕРОПРИЯТИЯ</a></p>
+                <p id="navigation"><a href="navigation.html">БИЗНЕС-КНИГА</a></p>
             </div>
             <p id="mail">hello@karier.ru</p>
         </div>
@@ -26,20 +26,133 @@
             <p id="phone">+7 (142)-258-57-89</p>
         </div>
     </section>
+    <!-- ПЕРВЫЙ ЭКРАН -->
     <section id="first_screen">
         <div id="head">
-            <p id="head_karier">«КАРЬЕР»</p>
+            <p class="h1" id="head_karier">«КАРЬЕР»</p>
         </div>
         <div id="dashed">
             <p id="offer">ПРОИЗВОДИМ БЕСКОНЕЧНЫЕ<br>ПОЛЕЗНЫЕ ИСКОПАЕМЫЕ</p>
         </div>
     </section>
-
-
-
-
-
-
-
+    <!-- ФОТОГРАФИИ -->
+    <section id="photos1">
+        <div class="little_photo">
+            <div class="lp" id="main1"></div>
+            <div class="lp_description">
+                <div class="lp_description_top">
+                <p class="p1">ПЕРЕГОВОРНАЯ</p>
+                <p class="p2">01</p>
+                </div>
+                <p class="p3">Корпус 2, этаж 1</p>
+            </div>
+        </div>
+        <div class="little_photo">
+            <div class="lp" id="main2"></div>
+            <div class="lp_description">
+                <div class="lp_description_top">
+                <p class="p1">ЛАБОРАТОРИЯ</p>
+                <p class="p2">02</p>
+                </div>
+                <p class="p3">Корпус 4, этаж 3</p>
+            </div>
+        </div>
+        <div class="big_photo">
+            <div class="bp" id="main3"></div>
+            <div class="bp_description">
+                <div class="bp_description_top">
+                <p class="p1">ИССЛЕДОВАТЕЛЬСКАЯ</p>
+                <p class="p2">03</p>
+                </div>
+                <p class="p3">Корпус 2, этаж 5</p>
+            </div>
+        </div>
+    </section>
+    <section id="photos2">
+        <div class="big_photo">
+            <div class="bp" id="main3"></div>
+            <div class="bp_description">
+                <div class="bp_description_top">
+                <p class="p1">ЛАБОРАТОРИЯ</p>
+                <p class="p2">04</p>
+                </div>
+                <p class="p3">Корпус 4, этаж 3</p>
+            </div>
+        </div>
+        <div class="little_photo">
+            <div class="lp" id="main1"></div>
+            <div class="lp_description">
+                <div class="lp_description_top">
+                <p class="p1">НАУЧНЫЙ ЦЕНТР</p>
+                <p class="p2">05</p>
+                </div>
+                <p class="p3">Главный корпус, этаж 3</p>
+            </div>
+        </div>
+    </section>
+    <!-- ЗАГОЛОВОК ПЕРЕД НОВОСТЯМИ -->
+    <section>
+        <div class="zagolovok">
+            <p id="no" class="zagolovok_text">НО</p>
+            <p id="osti" class="zagolovok_text">ОСТИ</p>
+            <p id="v" class="zagolovok_letter">В</p>
+        </div>
+    </section>
+    <!-- НОВОСТИ -->
+    <section id="photos3">
+        <div class="news_photo">
+            <div class="np" id="news1"></div>
+            <div class="np_description">
+                <div class="lp_description_top">
+                <p class="p1">ПАНЕЛЬ ЗАКАЗОВ</p>
+                <p class="p2">7.06</p>
+                </div>
+                <p class="p3">Открытая версия</p>
+            </div>
+        </div>
+        <div class="news_photo">
+            <div class="np" id="news2"></div>
+            <div class="np_description">
+                <div class="lp_description_top">
+                <p class="p1">НОВЫЕ ВАКАНСИИ</p>
+                <p class="p2">1.04</p>
+                </div>
+                <p class="p3">Ищем сотрудников</p>
+            </div>
+        </div>
+        <div class="news_photo">
+            <div class="np" id="news3"></div>
+            <div class="np_description">
+                <div class="lp_description_top">
+                <p class="p1">ВЗЛОМАННЫЙ САЙТ</p>
+                <p class="p2">9.03</p>
+                </div>
+                <p class="p3">Прошлый сайт недоступен</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- ФОРМА ДЛЯ ПОЧТЫ -->
+    <section>
+        <div class="zagolovok">
+            <p id="rassil" class="zagolovok_text">РАССЫЛ</p>
+            <p id="a" class="zagolovok_text">А</p>
+            <p id="k" class="zagolovok_letter">К</p>
+        </div>
+        <form id="subscribe-form" action="#" method="POST">
+            <input
+            type="email"
+            name="email"
+            placeholder="ВАША ПОЧТА"
+            required/>
+        <button type="submit">ОТПРАВИТЬ</button>
+        </form>
+        <div class="footer">
+            <p class="footer_text">КОЧЕТКОВА ДАРЬЯ</p>
+            <p class="footer_text">ЯРОСЛАВ СУББОТИН</p>
+            <p class="footer_text">Б24ДЗ08</p>
+        </div>
+    </section>
+<script src="script.js"></script>
 </body>
 </html>
