@@ -5,18 +5,17 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 300vw;
-}
-  
-body {
+    height: auto;
+    color: #ADBED7;
+    overflow-x: hidden;
     background-color: #43474E;
-    background-image: url(../images/Desktop.svg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 100% auto;
 }
-
-/* ГЛАВНАЯ СТРАНИЦА */
+.h1 {
+    letter-spacing: -0.59vw;
+    font-family: 'TT Hoves Pro Condensed Medium';
+    font-weight: normal;
+}
+/* ============================= ГЛАВНАЯ СТРАНИЦА ============================== */
 /* Меню */
 .menu {
     height: 3.3vw;
@@ -36,7 +35,6 @@ body {
     margin-left: 1.39vw;
     font-family: Inter;
     font-size: 0.87vw;
-    font-weight: 600;
     margin-top: 0.44vw;
     letter-spacing: -0.05vw;
 }
@@ -44,7 +42,6 @@ body {
     margin-right: 1.42vw;
     font-family: Inter;
     font-size: 1vw;
-    font-weight: 700;
     margin-top: 0.9vw;
     letter-spacing: -0.05vw;
 }
@@ -52,7 +49,6 @@ body {
     margin-right: 1.42vw;
     font-family: Inter;
     font-size: 0.87vw;
-    font-weight: 600;
     margin-top: 0.44vw;
     letter-spacing: -0.05vw;
     text-align: right;
@@ -65,7 +61,6 @@ body {
 #menu2-top {
     font-family: Inter;
     font-size: 1vw;
-    font-weight: 700;
     margin-top: 0.9vw;
     letter-spacing: -0.05vw;
     display: flex;
@@ -76,13 +71,15 @@ body {
 #mail {
     font-family: Inter;
     font-size: 0.87vw;
-    font-weight: 600;
     margin-top: 0.44vw;
     letter-spacing: -0.05vw;
     text-align: center;
     margin-left: 6.55vw;
 }
-
+a {
+    text-decoration: none;
+    color: inherit;
+}
 /* ВТОРАЯ СЕКЦИЯ ГЛАВНЫЙ ЭКРАН */
 
 #head {
@@ -94,17 +91,14 @@ body {
     overflow: hidden;
 }
 #head_karier {
-    font-family: 'TT Hoves Pro Condensed Medium';
-    font-weight: normal;
     font-size: 15.5vw;
     text-align: right;
     margin-right: 1.3vw;
     margin-top: 4vw;
-    letter-spacing: -0.59vw;
 }
 #dashed {
     height: 42.45vw;
-    border-top: 0.2vw dashed #ffffff;
+    border-top: 0.15vw dashed;
     display: flex;
     justify-content: center;
     align-items: flex-end; 
@@ -113,6 +107,363 @@ body {
     text-align: center;
     font-family: Inter;
     font-size: 1.3vw;
-    font-weight: 700;
     margin-bottom: 3.6vw;
+}
+
+/* СЕКЦИЯ С ФОТОГРАФИЯМИ */
+#photos1 {
+    padding-left: 1.4vw;
+    padding-right: 1.4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.little_photo {
+    width: 23.8vw;
+    height: 34.6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lp {
+    width: 23.8vw;
+    height: 29.6vw;
+    background-size: cover;
+    border: 0.09vw solid #ADBED7;
+}
+.lp_description {
+    width: 23.8vw;
+    height: 3.6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lp_description_top {
+    display: flex;
+    justify-content: space-between;
+}
+.p1 {
+    font-family: 'TT Hoves Pro Condensed Medium';
+    font-size: 2.48vw;
+    margin-top: -0.25vw;
+}
+.p2 {
+    font-family: 'CalligraphRuss';
+    font-size: 4vw;
+    margin-right: 0.35vw;
+    margin-top: -0.7vw;
+}
+.p3 {
+    font-family: Inter;
+    font-size: 1.167vw;
+    /* font-weight: 600; */
+    margin-top: -0.5vw;
+}
+.big_photo {
+    width: 48.3vw;
+    height: 58.3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bp {
+    width: 48.4vw;
+    height: 53.3vw;
+    background-size: cover;
+    border: 0.09vw solid #ADBED7;
+}
+.bp_description {
+    width: 48.4vw;
+    height: 3.6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bp_description_top {
+    display: flex;
+    justify-content: space-between;
+}
+#main1 {
+    background-image: url(../images/main1.jpg);
+}
+#main2 {
+    background-image: url(../images/main2.jpg);
+}
+#main3 {
+    background-image: url(../images/main3.jpg);
+}
+#photos2 {
+    padding-left: 1.4vw;
+    padding-right: 1.4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 7.5vw;
+}
+
+/* БЛОК С НОВОСТЯМИ */
+.zagolovok {
+    overflow-y: hidden;
+    border-bottom: 0.15vw dashed;
+    height: 6vw;
+    margin-top: 9.8vw;
+    position: relative;
+}
+.zagolovok_text {
+    font-family: 'TT Hoves Pro Condensed Medium';
+    font-weight: normal;
+    font-size: 9.8vw;
+    letter-spacing: -0.7vw;
+    position: absolute;
+}
+#no {
+    left: 1.1vw;
+    top: -1.5vw;
+}
+#osti {
+    left: 17.6vw;
+    top: -1.5vw;
+}
+.zagolovok_letter {
+    font-family: 'CalligraphRuss';
+    font-size: 11.6vw;
+    position: absolute;
+}
+#v {
+    left: 8.5vw;
+    top: 0.3vw;
+}
+.news_photo {
+    width: 32vw;
+    height: 39.9vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.np {
+    width: 32vw;
+    height: 35vw;
+    background-size: cover;
+    border: 0.09vw solid #ADBED7;
+}
+.np_description {
+    width: 32vw;
+    height: 3.6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#photos3 {
+    padding: 1.4vw;
+    padding-bottom: 0vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#news1 {
+    background-image: url(../images/news1.jpg);
+}
+#news2 {
+    background-image: url(../images/news2.jpg);
+}
+#news3 {
+    background-image: url(../images/news3.jpg);
+}
+#rassil {
+    left: 1.1vw;
+    top: -1.5vw;
+}
+#k {
+    left: 26.1vw;
+    top: 0.5vw;
+}
+#a {
+    left: 37vw;
+    top: -1.5vw;
+}
+:root {
+  --gap: 0;
+}
+#subscribe-form {
+    margin-left: 1.2vw;
+    margin-top: 2.5vw;
+    display: flex;
+    gap: var(--gap);
+}
+#subscribe-form input[type="email"] {
+    width: 79.86vw;
+    padding-left: 1.4vw;
+    font-family: 'TT Hoves Pro Condensed Medium';
+    background-color: #43474E;
+    color: #ADBED7;
+    border: 0.1vw solid #ADBED7;
+    border-radius: 0;
+}
+#subscribe-form button[type="submit"] {
+    width: 17.6vw;
+    height: 5.5vw;
+    font-family: 'TT Hoves Pro Condensed Medium';
+    background-color: #ADBED7;
+    color: #43474E;
+    border: #ADBED7;
+    border-radius: 0;
+}
+#subscribe-form input[type="email"]::placeholder {
+  color: #ADBED7;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vw;
+    padding: 1.4vw;
+}
+.footer_text {
+    font-family: 'TT Hoves Pro Condensed Medium';
+    font-size: 2.3vw;
+}
+/* ============================= ВТОРАЯ СТРАНИЦА: КНИГА ============================== */
+#head_business {
+    height: 16.25vw;
+    background-image: url(../images/head_business.svg);
+    background-repeat: no-repeat;
+    background-size: 53.2vw;
+    background-position: 45.6vw 4.4vw;
+    overflow: hidden;
+    border-bottom: 0.15vw dashed;
+}
+#head_karier_business {
+    font-size: 15.67vw;
+    margin-left: 0.2vw;
+    margin-top: 3.2vw;
+}
+#book_photos {
+    position: relative;
+    height: 167.8vw;
+}
+.book {
+    position: absolute;
+}
+#book1 {
+    height: 41vw;
+    left: 1.1vw;
+    top: 3.5vw;
+}
+#book2 {
+    height: 19vw;
+    left: 58.6vw;
+    top: 25vw;
+}
+#book3 {
+    height: 21vw;
+    left: 20.3vw;
+    top: 46vw;
+}
+#book4 {
+    height: 35vw;
+    left: 51.6vw;
+    top: 45.4vw;
+}
+#book5 {
+    height: 15.5vw;
+    left: 1.1vw;
+    top: 82.9vw;
+}
+#book6 {
+    height: 33.8vw;
+    left: 23.7vw;
+    top: 82.4vw;
+}
+#book7 {
+    height: 15.8vw;
+    left: 71.7vw;
+    top: 82.9vw;
+}
+#book8 {
+    height: 15.8vw;
+    left: 71.7vw;
+    top: 100.2vw;
+}
+#book9 {
+    height: 17.1vw;
+    left: 46.3vw;
+    top: 117.6vw;
+}
+#book10 {
+    height: 33.1vw;
+    left: 14.3vw;
+    top: 136.6vw;
+}
+#book11 {
+    height: 19.9vw;
+    left: 60.3vw;
+    top: 149.6vw;
+}
+/* ============================= ТРЕТЬЯ СТРАНИЦА: МАГАЗИН ============================== */
+#head_shop {
+    height: 16.25vw;
+    background-image: url(../images/head_shop.svg);
+    background-repeat: no-repeat;
+    background-size: 46.2vw;
+    background-position: 52.6vw 4.5vw;
+    overflow: hidden;
+    border-bottom: 0.15vw dashed;
+    margin-bottom: 1.4vw;
+}
+#shop1 {
+    background-image: url(../images/shop1.jpg);
+}
+#shop2 {
+    background-image: url(../images/shop2.jpg);
+}
+#shop3 {
+    background-image: url(../images/shop3.jpg);
+}
+#shop4 {
+    background-image: url(../images/shop4.jpg);
+}
+#shop5 {
+    background-image: url(../images/shop5.jpg);
+}
+/* ============================= ЧЕТВЕРТАЯ СТРАНИЦА: АФИША ============================== */
+#head_mero {
+    height: 16.25vw;
+    background-image: url(../images/head_mero.svg);
+    background-repeat: no-repeat;
+    background-size: 53vw;
+    background-position: 45.3vw 4.5vw;
+    overflow: hidden;
+    border-bottom: 0.15vw dashed;
+    margin-bottom: 1.4vw;
+}
+#mero_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lp_description_mero {
+    width: 48.6vw;
+    height: 6.2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 0.1vw solid;
+    padding-bottom: 2.1vw;
+    padding-left: 0.12vw;
+    margin-top: 2.1vw;
+}
+.lp_description_top_mero {
+    display: flex;
+    justify-content: space-between;
+}
+#neposter {
+    width: 50vw;
+}
+.poster {
+    background-image: url(../images/mero0.jpg);
+    background-size: cover;
+    margin-top: 1.7vw;
+    margin-left: 9.6vw;
+    height: 46vw;
+    width: 30.78vw;
 }
