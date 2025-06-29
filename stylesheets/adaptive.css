@@ -1,0 +1,65 @@
+/* adaptation.css - Адаптация фотогалереи и новостей */
+
+/* Медиа-запрос для планшетов и мобильных устройств */
+@media (max-width: 1024px) {
+    /* Фотогалерея 1 - вертикальное расположение */
+    #photos1 {
+        flex-direction: column;
+        gap: 5vw;
+        padding: 0 9.4vw;
+    }
+    
+    .little_photo, .big_photo {
+        width: 100%;
+        height: 106vw;
+    }
+    .lp, .bp {
+        width: 100%;
+        height: 100vw;
+    }
+    
+    .lp_description, .bp_description {
+        width: 100%;
+    }
+    #photos2 {
+        flex-direction: column;
+        gap: 5vw;
+        padding: 0 9.4vw;
+        margin-top: 7vw;
+    }
+    
+    /* Новости - вертикальное расположение */
+    #photos3 {
+        flex-direction: column;
+        gap: 5vw;
+        padding: 1.4vw 9.4vw;
+    }
+    
+    .news_photo {
+        width: 100%;
+        height: 106vw;
+    }
+    
+    .np {
+        width: 100%;
+        height: 100vw;
+    }
+    
+    .np_description {
+        width: 100%;
+    }
+    .poster {
+        display: none;
+    }
+    #mero_section {
+        padding: 1.4vw 1.4vw;
+    }
+    #neposter {
+        width: 100%;
+    }
+    .lp_description_mero {
+        width: 100%;
+        height: 6.6vw;
+        margin-top: 2.6vw;
+    }
+}
